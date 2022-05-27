@@ -1,13 +1,14 @@
 import styled from "styled-components";
+import { Header } from "./components/Header";
 import { GlobalStyle } from "./styles/global";
 
 function App() {
-    return (
-        <div className="App">
-            <h1>Hello World</h1>
-            <GlobalStyle />
-        </div>
-    );
+  return (
+    <>
+      <Header />
+      <GlobalStyle />
+    </>
+  );
 }
 
 export default App;
